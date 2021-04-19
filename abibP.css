@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+@media (min-width:1440px) {
+header { padding: 0 240px; height: 1080px; }
+
+ header .copy{
+    font-size: 17px; 
+    transform: rotate(-90deg);
+    transform-origin: -4% 181%;
+  }
+  header .welcome{ font-size: 3rem;}
+  header h1 { font-size: 9rem;}
+  header h2 { font-size: 3rem;}
+  header h3 { font-size: 2rem; margin-top: 15px;}
+
+/* publish */
+.container main .publish{ width: 90%; margin: 0 auto; margin-top: 200px;}
+.container main .publish h2{ 
+  width: 90%;
+  font-size: 2rem;
+}
+.container main .publish .num{ padding: 70px;}
+.container main .publish .num h3{ font-size: 5.5rem;}
+.container main .publish .num p { font-size: 2.5rem; margin-top: 30px;}
+
+.section_wrap{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.section_wrap .section{ width: 100%; margin-top: 250px; padding: 70px;}
+.section_wrap .section > h3 { font-size: 2rem; width: 100%; margin: 0;}
+.section p{ font-size: 1.8rem; margin:20px 0 0 0; line-height:1.5;}
+.section .jquery p{ font-size: 1.7rem;}
+
+.section .list h3,
+.section .jquery h3,
+.section .web h3,
+.section .work h3,
+.section .common h3{ font-size: 3rem; margin: 80px 0 20px 0;}
+.section .work p:nth-of-type(2){width:500px;}
+
+.section .img p:first-child{  width: 448px; height: 110px; margin:70px 0 0 0;}
+.section .img p:last-child{  width: 348px; height: 100px;  left: 199px; }
+
+.guide{ padding: 0 240px; height: 1080px;  }
+.guide h2 { font-size: 7rem; }
+.guide p{ font-size: 2.5rem;}
+
+.guide_point{ width: 90%; margin: 0 auto; padding: 70px;}
+.guide_point h3 { width: 90%; font-size: 2rem; margin-top: 200px;}
+.guide_point p{ font-size: 2.5rem; width: 90%; padding: 50px 70px;}
+.guide_point p:nth-of-type(1){ width: 90%;}
+
+.color{ width: 90%; margin: 0 auto; padding: 70px;}
+.color .color_guide h3{ font-size: 2rem; width:90%; margin: 0 auto;}
+.color .color_guide p{ font-size: 2.5rem; width: 90%; padding: 70px;}
+
+.color .color_info{  margin: 50px auto; padding: 70px; justify-content: space-between;}
+.color .color_info ul{ width: 26%; margin-right: 20px; }
+.color .color_info li{ font-size: 2rem; margin-bottom: 20px;}
+.color .color_info .color1 li:first-child{ margin-bottom: 35px;}
+.color .color_info .color2 li:first-child{ margin-bottom: 35px;}
+.color .color_info .color1 li:first-child,
+.color .color_info .color2 li:first-child,
+.color .color_info .color3 li:first-child
+{ width: 350px; height: 200px;}
+
+.color .logo{ margin: 0; width: 25%;}
+.color .logo p:first-child{
+  width: 100%; height: 219px;
+}
+.color .logo p:last-child{
+  width: 100%; height: 102px;
+}
+
+.typo{ width: 90%; margin: 0 auto;  padding: 70px;}
+.typo h3{ width: 90%; margin: 0 auto; font-size: 2rem; }
+.typo .font1 h4{font-size: 5rem; width: 90%; padding: 70px; margin: 0 auto; margin-top: 100px; }
+.typo .font1{ display: flex; flex-wrap: wrap;}
+.typo .font1 .heading{ display: block; width: 25%; }
+.typo .font1 .heading p{ padding: 50px 70px; margin: 0; height: 34px;}
+.typo .font1 .heading ul{ padding: 30px 70px; width: 68%;}
+.typo .font1 .heading ul li:first-child{ margin-bottom: 20px; font-size: 1.4rem;}
+.typo .font1 .heading ul li{ margin-bottom: 5px; font-size: 1.4rem;}
+
+.typo .font2 h4{ width: 90%; font-size: 5rem; padding: 70px; margin: 0 auto; margin-top: 100px; }
+.typo .font2 { display: flex; flex-wrap: wrap;}
+.typo .font2 .heading {display: block; width: 25%;}
+.typo .font2 .heading p{ padding: 50px 70px; margin: 0; height: 34px;}
+.typo .font2 .heading ul{ padding: 30px 70px; width: 66%;}
+
+.typo .font2 .heading ul li:first-child{ margin-bottom: 20px; font-size: 1.4rem;}
+.typo .font2 .heading ul li{ margin-bottom: 5px; font-size: 1.4rem;}
+footer .btn_wrap .btn{ width: 300px; font-size: 1.6rem; }
+footer p{ width: 90%; margin: 50px auto; font-size: 1.1rem; text-align: center;}
+
+}
